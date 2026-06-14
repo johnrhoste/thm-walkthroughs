@@ -216,7 +216,6 @@ Use the following as the query:
 `@timestamp >= "2025-07-20T05:13:15" and process.parent.name:cmd.exe and user.name:Administrator`
 
 
-/// SCREENSHOT 14 ///
 <img width="1673" height="620" alt="elastic-alert-triage-screenshot-14" src="https://github.com/user-attachments/assets/c255c5a7-2c85-4a36-9862-1b75a035f539" />
 
 
@@ -251,8 +250,7 @@ Add the field `powershell.file.script_block_text` as a column to show the comman
 Find the entry with the relevant time, and then check the command in the `powershell.file.script_block_text` field.
 
 
-/// SCREENSHOT 17 ///
-
+<img width="1674" height="757" alt="Screen Shot 2026-06-14 at 6 46 44 PM" src="https://github.com/user-attachments/assets/eadbb061-5ecb-413b-a20b-bce4e7d597b1" />
 
 
 ### Question 4 - What is the name of the archive that the attacker creates using the  `Rar.exe`  executable?
